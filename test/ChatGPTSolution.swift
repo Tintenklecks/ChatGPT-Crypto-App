@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-struct Cooooin: Codable, Identifiable {
+struct Coin: Codable, Identifiable {
     let id: String
     let name: String
     let symbol: String
