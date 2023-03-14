@@ -6,8 +6,6 @@
 
 import SwiftUI
 
-// Added some comment
-
 struct ContentView: View {
     @StateObject var viewModel = CoinListViewModel()
     
