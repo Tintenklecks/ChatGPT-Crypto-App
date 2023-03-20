@@ -96,6 +96,11 @@ class CoinListViewModel: ObservableObject {
     }
 }
 
+extension Double {
+    func currencyFormatted() -> String {
+        NumberFormatter.localizedString(from: NSNumber(value: self), number: .currency)
+    }
+}
 
 struct CoinDetailView: View {
     let coin: Coin
